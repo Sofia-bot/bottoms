@@ -2,9 +2,68 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
     <title></title>
   </head>
   <body>
 
+  <p>I am expecting u to properly type ur tritype im not checking it</p>
+
+  <div onClick="showMbtiMenu()" class="dropdown">
+    <button class="dropbtn">Choose Type</button>
+    <ul id="dropMbti">
+      <li onclick="setMbti()">ENFJ</li>
+      <li onclick="setMbti()">INFJ</li>
+      <li onclick="setMbti()">ENFP</li>
+      <li onclick="setMbti()">INFP</li>
+      <li onclick="setMbti()">ENTJ</li>
+      <li onclick="setMbti()">INTJ</li>
+      <li onclick="setMbti()">ENTP</li>
+      <li onclick="setMbti()">INTP</li>
+      <li onclick="setMbti()">ESFJ</li>
+      <li onclick="setMbti()">ISFJ</li>
+      <li onclick="setMbti()">ESFP</li>
+      <li onclick="setMbti()">ISFP</li>
+      <li onclick="setMbti()">ESTJ</li>
+      <li onclick="setMbti()">ISTJ</li>
+      <li onclick="setMbti()">ESTP</li>
+      <li onclick="setMbti()">ISTP</li>
+    </ul>
+  </div>
+
+  <div onClick="showEnneagramMenu()" class="dropdown">
+    <button class="dropbtn" id="enneagram">Choose Enneagram</button>
+    <ul id="dropEnneagram">
+      <li onclick="setEnneagram()">1w9</li>
+      <li onclick="setEnneagram()">1w2</li>
+      <li onclick="setEnneagram()">2w1</li>
+      <li onclick="setEnneagram()">2w3</li>
+      <li onclick="setEnneagram()">3w2</li>
+      <li onclick="setEnneagram()">3w4</li>
+      <li onclick="setEnneagram()">4w3</li>
+      <li onclick="setEnneagram()">4w5</li>
+      <li onclick="setEnneagram()">5w4</li>
+      <li onclick="setEnneagram()">5w6</li>
+      <li onclick="setEnneagram()">6w5</li>
+      <li onclick="setEnneagram()">6w7</li>
+      <li onclick="setEnneagram()">7w6</li>
+      <li onclick="setEnneagram()">7w8</li>
+      <li onclick="setEnneagram()">8w7</li>
+      <li onclick="setEnneagram()">8w9</li>
+      <li onclick="setEnneagram()">9w8</li>
+      <li onclick="setEnneagram()">9w1</li>
+
+    </ul>
+  </div>
+
+  <input type="text" id="tritype" placeholder="Tritype">
+  <br>
+  <button onclick="setTritype()" id="tribtn">Enter</button>
+
+  <div id="container">
+    <button onclick="calculate()" id="calcbtn">Calculate!</button>
+  </div>
+
+  <script src="bottomCalc.js"></script>
   </body>
 </html>

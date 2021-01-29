@@ -1,0 +1,81 @@
+* {
+  font-family: arial;
+}
+
+body {
+  background-image: url("images/jjr.png");
+  background-size: cover;
+}
+
+#container {
+  text-align: center;
+}
+
+input {
+  float: left;
+  margin-top: 30px;
+  width: 60px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin: 20px;
+  top: 50px;
+  vertical-align: top;
+  float: left;
+  background-color: #c28098;
+  color: white
+}
+
+button:hover {
+  border: 3px solid white;
+  background-color: #c43569;
+  cursor: pointer;
+}
+
+#calcbtn {
+  position: fixed;
+  margin: auto;
+  display: block;
+  top: 30%;
+  left: 45%;
+  font-size: 17px;
+  background-color: #c43569;
+}
+
+#tribtn {
+  margin: 0px;
+  margin-top: 12px;
+  width: 40px;
+  height: 22px;
+  text-align: center;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  margin-top: 75px;
+  z-index: 1;
+}
+
+li {
+  margin: 5px;
+  background-color: #c28098;
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+  margin: 10px;
+  background-color: #c43569;
+  padding: 3px;
+  border: 3px solid white;
+}
+
+#dropEnneagram {
+  margin-left: 140px;
+}
