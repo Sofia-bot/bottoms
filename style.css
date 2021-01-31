@@ -70,7 +70,6 @@ li {
 
 li:hover {
   cursor: pointer;
-  margin: 10px;
   background-color: #c43569;
   padding: 3px;
   border: 3px solid white;
@@ -78,4 +77,19 @@ li:hover {
 
 #dropEnneagram {
   margin-left: 140px;
+}
+
+table {
+  margin-top: 20%;
+  margin-left: 30%;
+  border-collapse: collapse;
+  color: #c43569;
+  font-weight: bold;
+  font-size: 35px;
+  -webkit-text-stroke: .5px white;
+}
+
+th, td {
+  padding: 3px;
+  border: 3px solid white;
 }

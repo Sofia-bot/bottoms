@@ -61,8 +61,31 @@
   <button onclick="setTritype()" id="tribtn">Enter</button>
 
   <div id="container">
-    <button onclick="calculate()" id="calcbtn">Calculate!</button>
+    <button onclick="calculate()" onclick="setTable()" id="calcbtn">Calculate!</button>
   </div>
+
+  <table>
+    <tr>
+      <th>MBTI</th>
+      <td id="mbtitype"></td>
+      <td id="mbtidta"></td>
+    </tr>
+    <tr>
+      <th>Enneagram</th>
+      <td id="enneagramtype"></td>
+      <td id="enneagramdta"></td>
+    </tr>
+    <tr>
+      <th>Tritype</th>
+      <td id="tritypetype"></td>
+      <td id="tritypedta"></td>
+    </tr>
+    <tr>
+      <th>Bottom Percentage</th>
+      <td></td>
+      <td id="bottomdta"></td>
+    </tr>
+  </table>
 
   <script src="bottomCalc.js"></script>
   </body>
